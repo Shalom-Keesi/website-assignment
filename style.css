@@ -1,0 +1,340 @@
+.container{
+    background-color: rgb(124,88,165);
+}
+
+#Body{
+    background-color: rgb(250, 207,204 );
+    border-radius: 20px;
+    padding: 2px;
+    margin: 5%;
+    border: solid black;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+
+}
+.sign-up-button{
+    background-color: rgb(1, 1, 23);
+    color:white;
+    padding: 1px 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 70px;
+    /* width: 200%; */
+    border-color: transparent;
+    border-radius: 10px;
+
+
+}
+#navigationbar{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+#title{
+    font-style: italic;
+    line-height: 0cm;
+    transform: translateY(-29%);
+    
+
+
+}
+.search-input{
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 110%;
+    margin-right:20px ;
+    border:  1px solid black;
+    padding: 9px;
+    border-radius: 20px;
+    transform: translateY(-5%);
+}
+.courses-dropdown{
+    border: 0cap;
+    background-color: transparent;
+}
+.apply-button{
+    background-color: transparent;
+    border: 0cap;
+     margin-left: 40px;
+}
+.sign-in-button{
+    background-color: transparent;
+    border: 0cm;
+}
+.apply-button,.sign-up-button,.sign-up-button{
+    justify-content: space-around; 
+}
+.courses-dropdown,.search-input{
+    justify-content: space-between;
+    
+}
+.body{
+    background-color: rgb(124,88,165);
+    height: 270px;
+    margin-bottom: 30px;
+}
+#study-anytime-introduction{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+#heading{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+}
+#introduction-image{
+    zoom: 70%;
+}
+#subheading{
+    font-size: x-small;
+    transform: translateY(-205%);
+    font-style: italic;
+    font-weight: bold;
+}
+#introduction-button{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-radius: 70px;
+    padding: 12px;
+}
+#rates{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#rates-titles{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer{
+    background-color: white;
+    margin-top: 2%;
+    border: solid 1px white;
+    border-radius: 20px;
+}
+@media  screen and (min-width:400px)and (max-width:900px){
+
+    #navigationbar{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin-top: 2%;
+    }
+    #title{
+        font-style: italic;
+        line-height: 0cm;
+        transform: translateY(-22%);
+        font-size: medium;
+        text-align: center;
+    }
+
+    .search-input{
+        background-color: transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+        width: 110%; 
+        margin-right:20px ;
+        border:  1px solid black;
+        padding: 1px 0;
+        border-radius: 20px;
+        transform: translateY(-5%);
+    }
+    .courses-dropdown{
+        border: 0cap;
+        background-color: transparent;
+        display: inline-block;
+        /* justify-content: center;
+        align-items: center;
+        align-self: center; */
+    }
+    #courses-dropdown-and-search-input{
+        display: flex;
+        margin-bottom: 2%;
+        gap: 4px;
+        margin-left: 2px;
+    }
+    .apply-button{
+        background-color: transparent;
+        border: 0cap;
+         /* margin-left: 40px; */
+         transform: translateX(25%);
+    }
+    .sign-in-button{
+        background-color: transparent;
+        border: 0cm;
+        transform: translateX(55%);
+    }
+    .sign-up-button{
+        background-color: rgb(1, 1, 23);
+        color:white;
+        padding: 1px 7px;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-radius: 70px;
+        /* width: 200%; */
+        border-color: transparent;
+        border-radius: 10px;
+        transform: translateX(185%);
+    }
+    #Body{
+        overflow: hidden;
+        height: 120%;
+    }
+    #heading{
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 20px;
+
+    }
+    #subheading{
+        font-size: x-small;
+        margin-top: 2%;
+        /* transform: translateY(-205%); */
+        font-style: italic;
+        font-weight: bold;
+    }
+    #study-anytime-introduction{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        margin-top: 7px;
+    }
+    #introduction-image{
+        zoom: 50%;
+        margin-top: 3%;
+    }
+
+        
+    }
+@media  screen and (min-width:200px)and (max-width:399px){
+    #navigationbar{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin-top: 2%;
+    }
+    #title{
+        font-style: italic;
+        line-height: 0cm;
+        transform: translateY(-22%);
+        font-size: medium;
+        text-align: center;
+    }
+    .search-input{
+        background-color: transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+        width: 110%; 
+        margin-right:20px ;
+        border:  1px solid black;
+        padding: 1px 0.5px;
+        border-radius: 20px;
+        transform: translateY(-5%);
+    }
+    .courses-dropdown{
+        border: 0cap;
+        background-color: transparent;
+        display: inline-block;
+        transform: translateX(125%);
+        /* justify-content: center;
+        align-items: center;
+        align-self: center; */
+    }
+    .sign-up-button{
+        background-color: rgb(1, 1, 23);
+        color:white;
+        padding: 1px 7px;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-radius: 70px;
+        /* width: 200%; */
+        border-color: transparent;
+        border-radius: 10px;
+        transform: translateX(175%);
+    }
+    #heading{
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 20px;
+
+    }
+    #subheading{
+        font-size: x-small;
+        margin-top: 2%; */
+        /* transform: translateY(-205%); */ 
+        font-style: italic;
+        font-weight: bold;
+    }
+    #study-anytime-introduction{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        margin-top: 7px;
+    }
+    #introduction-image{
+        zoom: 50%;
+        margin-top: 3%;
+    }
+    footer{
+        background-color: white;
+        margin-top: 2%;
+        border: solid 1px white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #rates-titles{
+        font-size: x-small;
+    }
+    
+
+} 
+@media  screen and (min-width:901px)and (max-width:1200px){
+    .sign-up-button{
+        background-color: rgb(1, 1, 23);
+        color:white;
+        padding: 1px 7px;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-radius: 70px;
+        /* width: 200%; */
+        border-color: transparent;
+        border-radius: 10px;
+    
+    
+    }
+    #navigationbar{
+        display:flex;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
+    #title{
+        font-style: italic;
+        line-height: 0cm;
+        transform: translateY(-29%);
+    }
+    #heading{
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 50px;
+    }
+    #introduction-image{
+        zoom: 70%;
+    }
+    #subheading{
+        font-size: x-small;
+        transform: translateY(-205%);
+        font-style: italic;
+        font-weight: bold;
+    }
+
+} 
